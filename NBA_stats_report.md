@@ -26,7 +26,7 @@ The statistical categories in Figure showed a positive or negative correlation w
 
 
 ![PCA plot](/img/PCA1.png)
-###### Figure 3:Principal Component Analysis of 29 stat categories for all NBA teams since season1979-80 and on. The size of each dot represents the amount of wins during the regular season(teams with more wins have larger dots) and the color depicts the decade of the team. 
+###### Figure 3:Principal Component Analysis of 29 stat categories for all NBA teams since season 1979-80 and on. The size of each dot represents the amount of wins during the regular season (teams with more wins have larger dots) and the color depicts the decade of the team. 
 
 <br/>
 
