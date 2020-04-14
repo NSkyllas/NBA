@@ -16,6 +16,10 @@ There are some teams worth mentioning:
 
 **Basketball is a beautiful and constantly evolving game and players adapt and dominate in different eras (or ”ecosystems”) by developing the necessary skills. Consequently, a comparison between players from different decades, in order to find the ”Greatest Of All Time” might not be valid.**
 
+<br/>
+<br/>
+<br/>
+
 > - For more details read the full report: [NBA Stats Report](NBA_stats_report.md)
 > - For more fun check the interactive plot: [Interactive PCA plot](https://nskyllas.github.io/NBA_Bokeh/)
 > - Data collected from https://www.basketball-reference.com/
