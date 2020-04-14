@@ -4,8 +4,7 @@ _The National Basketball Association (NBA) has changed since the introduction of
 
 
 
-![Scatter plot 1](/img/Screenshot.png)
-[Click here for the interactive plot](https://nskyllas.github.io/NBA/)
+[Click here for the interactive plot](https://nskyllas.github.io/NBA_Bokeh/)
 
 ## Methods
 
