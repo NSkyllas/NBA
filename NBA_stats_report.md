@@ -7,7 +7,7 @@
 ## Results
 
 ![Time series 1](/img/Scatter1.png)
-###### Fig 1: Time series of scoring-related statistical categories of all NBA teams since 1979: a)PTS, b) FGA, c) FG%, d) 2PA , e) 2P%, f) 3PA, g) 3P%, h) FTA and i) FT%. The black line is the mean of each year, the colored dots depict the mean and the standard deviation (bars) of each decade and the blue circles represent individual teams. The correlation coefficient of each category with time (NBA seasons) is plotted at the bottom of each sub figure.
+###### Fig 1: Time series of scoring-related statistical categories of all NBA teams since 1979: a)PTS, b) FGA, c) FG%, d) 2PA , e) 2P%, f) 3PA, g) 3P%, h) FTA and i) FT%. The black line is the mean of each year, the colored dots and error bars depict the mean and the standard deviation of each decade and the blue circles represent individual teams. The correlation coefficient of each category with time (NBA seasons) is plotted at the bottom of each sub figure.
 
 <br/>
 
@@ -17,15 +17,15 @@ During the 80s, teams were scoring more points, were having more field goal atte
 
 
 ![Time series 2](/img/Scatter2.png)
-###### Figure 2:Time series of non point-related statistical categories of all NBA teams since 1979: a) Wt., b) ORB, c) DRB, d) TOV and e) PF. The black line is the mean of each year, the colored dots depict the mean and the standard deviation (bars) of each decade and the blue circles represent individual teams. The correlation coefficient of each category with time (NBA seasons) is plotted at the bottom of each sub figure.
+###### Figure 2:Time series of non scoring-related statistical categories of all NBA teams since 1979: a) Wt., b) ORB, c) DRB, d) TOV and e) PF. The black line is the mean of each year, the colored dots and error bars depict the mean and the standard deviation of each decade and the blue circles represent individual teams. The correlation coefficient of each category with time (NBA seasons) is plotted at the bottom of each sub figure.
 
 <br/>
 
-The statistical categories in Figure showed a positive or negative correlation with time (seasons), which was larger than 0.6 (absolute r > 0.6). It is interesting to see that the average weight of the teams (Figure a) increased from 203.6 pounds in 1979 to 215.6 pounds in 2019-20. Along with the average weight, defensive rebounds showed a positive correlation (r > 0.6) with season.More specifically, they started increasing in the late 90s from around 30 per game to almost 35recently. In the 10s, they show a larger standard deviation (2.2) than in the previous decades,suggesting that this might be a transitional decade for the specific category (as the 90s were for the 2PA). The rest of the statistical categories, offensive rebounds, turnovers and personal fouls,showed negative correlation (r < -0.6) with season. Seemingly, fewer fouls lead to fewer free throws, and possibly shooting more long-range shots in the recent years, lead to fewer offensive and more defensive rebounds.
+The non scoring-related statistical categories in Fig 2 showed a positive or negative correlation with time (seasons), which was larger than 0.6 (\|r|\ > 0.6). It is interesting to see that the average weight of the teams (Fig 2a) increased from 203.6 pounds in 1979 to 215.6 pounds in 2019-20. Along with the average weight, defensive rebounds (Fig 2c) showed a positive correlation (r > 0.6) with season. More specifically, they started increasing in the late 90s from around 30 per game to almost 35 recently. In the 10s, they show a larger standard deviation (σ = 2.2) than in the previous decades, suggesting that this might be a transitional decade for the specific category (as the 90s were for the 2PA). The rest of the statistical categories, offensive rebounds, turnovers and personal fouls, showed negative correlation (r < -0.6) with season. Seemingly, fewer fouls lead to fewer free throws, and shooting more long-range shots in the recent years, possibly lead to fewer offensive and more defensive rebounds.
 
 
 ![PCA plot](/img/PCA1.png)
-###### Figure 3:Principal Component Analysis of 29 stat categories for all NBA teams since season 1979-80 and on. The size of each dot represents the amount of wins during the regular season (teams with more wins have larger dots) and the color depicts the decade of the team. 
+###### Figure 3: Principal Component Analysis (PCA) of 17 stat categories for all NBA teams since season 1979-80 and on. The size of each dot represents the amount of wins during the regular season (teams with more wins have larger dots) and the color depicts the decade of the team (see plot legend). 
 
 <br/>
 
