@@ -3,10 +3,6 @@
 *The National Basketball Association (NBA) has changed since the introduction of the 3-point line back in the 1979-80 season. In the beginning, teams were reluctantly shooting three pointers while today, players like Steph Curry and James Harden are leading a “3-point revolution”. Basketball went from a “big guy” game to a positionless sport, based on spacing and long-range shots. But what kind of story do the stats tell? Do they agree or do they show something else?*
 
 
-## Methods
-
-The year-by-year, team stats per game of all NBA teams since season 1979-80 until the (uncompleted) season 2019-20 were collected. The data were scraped from [Basketball Reference](https://www.basketball-reference.com/), and they correspond only to regular season games. The twenty-two statistical categories used in this project are: Wins Per Season (W), Losses Per Season (L), Average Player Age (Age), Aver-age Player Height (Ht.), Average Player Weight (Wt.), Field Goal Attempts Per Game (FGA), Field Goal Percentage (FG%), 3-Point Field Goal Attempts Per Game (3PA), 3 Point Field Goal Percent-age (3P%), 2-Point Field Goal Attempts Per Game (2PA), 2-Point Field Goal Percentage (2P%), Free Throw Attempts Per Game (FTA), Free Throw Percentage (FT%), Offensive Rebounds Per Game (ORB), Defensive Rebounds Per Game (DRB), Total Rebounds Per Game (TRB), Assists Per Game (AST), Steals Per Game (STL), Blocks Per Game (BLK), Turnovers Per Game (TOV), Personal Fouls Per Game (PF) and Points Per Game (PTS). All statistical categories were tested for correlation with season and nine of them exhibited a correlation coefficient \|r\| > 0.6. Time series were created for 14 statistical categories which either exhibited a strong (\|r\| > 0.6) correlation with season or had a clear pattern over time. Furthermore, their decadal means and standard deviations were examined. Finally, Principal Component Analysis (PCA) was performed on seventeen statistical categories, which were selected because they reflect the game style of each team, in contrast to the categories that were left out of the PCA: W, L, Age, Ht. and Wt. which are not related to the style of play. In all calculations, the season 1979-80 was included int he 80s decade since it was the only year from the 70s decade with a 3-point line. 
-
 ![Time series 1](/img/Scatter1.png)
 ###### Fig 1: Time series of scoring-related statistical categories of all NBA teams since 1979: a)PTS, b) FGA, c) FG%, d) 2PA , e) 2P%, f) 3PA, g) 3P%, h) FTA and i) FT%. The black line is the mean of each year, the colored dots depict the mean and the standard deviation (bars) of each decade and the blue circles represent individual teams. The correlation coefficient of each category with time (NBA seasons) is plotted at the bottom of each sub figure.
 
@@ -46,6 +42,14 @@ The time series suggest that the NBA has moved from a high-scoring, 2-Point and 
 
 **Basketball is a beautiful and constantly evolving game and players adapt and dominate in different eras (or ”ecosystems”) by developing the necessary skills. Consequently, a comparison between players from different decades, in order to find the ”Greatest Of All Time” might not be valid.**
 
-## References
+<br/>
+
+
+> ## Methods
+
+> The year-by-year, team stats per game of all NBA teams since season 1979-80 until the (uncompleted) season 2019-20 were collected. The data were scraped from [Basketball Reference](https://www.basketball-reference.com/), and they correspond only to regular season games. The twenty-two statistical categories used in this project are: Wins Per Season (W), Losses Per Season (L), Average Player Age (Age), Aver-age Player Height (Ht.), Average Player Weight (Wt.), Field Goal Attempts Per Game (FGA), Field Goal Percentage (FG%), 3-Point Field Goal Attempts Per Game (3PA), 3 Point Field Goal Percent-age (3P%), 2-Point Field Goal Attempts Per Game (2PA), 2-Point Field Goal Percentage (2P%), Free Throw Attempts Per Game (FTA), Free Throw Percentage (FT%), Offensive Rebounds Per Game (ORB), Defensive Rebounds Per Game (DRB), Total Rebounds Per Game (TRB), Assists Per Game (AST), Steals Per Game (STL), Blocks Per Game (BLK), Turnovers Per Game (TOV), Personal Fouls Per Game (PF) and Points Per Game (PTS). All statistical categories were tested for correlation with season and nine of them exhibited a correlation coefficient \|r\| > 0.6. Time series were created for 14 statistical categories which either exhibited a strong (\|r\| > 0.6) correlation with season or had a clear pattern over time. Furthermore, their decadal means and standard deviations were examined. Finally, Principal Component Analysis (PCA) was performed on seventeen statistical categories, which were selected because they reflect the game style of each team, in contrast to the categories that were left out of the PCA: W, L, Age, Ht. and Wt. which are not related to the style of play. In all calculations, the season 1979-80 was included int he 80s decade since it was the only year from the 70s decade with a 3-point line. 
+
+
+> ## References
 
 > 1) https://www.basketball-reference.com/
