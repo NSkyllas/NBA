@@ -28,6 +28,6 @@ The data suggest that the NBA has moved from a high-scoring, 2-Point and offensi
 <br/>
 <br/>
 
-> - For more details read the full report: [NBA Stats Report](NBA_stats_report.pdf)
+> - For more details read the full report: [NBA Stats Report](https://github.com/NSkyllas/NBA_stats/blob/master/NBA_stats_report.pdf)
 > - For more fun check the interactive plot: [Interactive PCA plot](https://nskyllas.github.io/NBA_Bokeh/)
 > - Data collected from https://www.basketball-reference.com/
